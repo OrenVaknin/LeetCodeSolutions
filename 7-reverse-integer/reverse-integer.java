@@ -6,8 +6,8 @@ class Solution {
             x=x*-1;
         }
         long num=0;
-        if(Math.log(x)/Math.log(2)>=32)
-            return 0;
+        //if(Math.log(x)/Math.log(2)>=32)
+         //   return 0;
         while (x>0){
             num=x%10+num*10;
             x=x/10;
