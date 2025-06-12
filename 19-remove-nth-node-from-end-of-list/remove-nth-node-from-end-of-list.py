@@ -29,7 +29,6 @@ class Solution(object):
                 last=last.next
                 l+=1
             before.next=None
-            last=None
             return head
         for _ in range(size-n-1):
             prev=prev.next
