@@ -15,7 +15,7 @@ class Solution(object):
         def level(node,lvl):
             if not node:
                 return
-            while len(ans)<=lvl:
+            if len(ans)==lvl:
                 ans.append([])
             ans[lvl].append(node.val)
             level(node.left,lvl+1)
