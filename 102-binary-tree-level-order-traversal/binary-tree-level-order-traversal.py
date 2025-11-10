@@ -23,22 +23,3 @@ class Solution(object):
 
         level(root,0)
         return ans 
-        """
-        ans = [[]]
-        if root is None:
-            return []
-        self.ans = [[]]
-        self.ans[0]=root.val
-        self.level(root,0)
-        return self.ans
-    def level(self, root, lvl):
-        while len(self.ans) <= lvl:
-            self.ans. ([])
-        if root.left or root.right:
-            self.ans.append([])            
-        if root.left:
-            self.ans[lvl+1].append(root.left.val)
-            return self.level(root.right,lvl+1)
-        if root.right:
-            self.ans[lvl+1].add(root.right.val)
-            return self.level(root.left,lvl+1)"""
